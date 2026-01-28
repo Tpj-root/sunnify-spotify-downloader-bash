@@ -1,0 +1,490 @@
+Downloading track: 2plbrEY59IikOBgBGLjaoe
+[Retry_API] Initialized decorator
+[Retry_API] max_attempts : 3
+[Retry_API] backoff_factor : 1.0
+[Retry_API] exceptions : (<class 'spotifydown_api.NetworkError'>, <class 'requests.exceptions.Timeout'>, <class 'requests.exceptions.ConnectionError'>)
+--------------------------------------------------
+[Retry_API] Decorating function : _fetch_embed_data
+[MainWindow] Initializing...
+[Path] Resolving default download path
+[Path] Base path: /home/where/Music/Sunnify
+[Path] Final download path: /home/where/Music/Sunnify
+[MainWindow] Default download path: /home/where/Music/Sunnify
+[MainWindow] UI effects applied
+[Main] Download button pressed
+[Main] Spotify URL: https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe
+[Main] Setting default download folder
+[Main] Folder does not exist → creating: /home/where/Downloads/SONG/API
+[Main] Validating download path
+[Path] Checking download path: /home/where/Downloads/SONG/API
+[Path] Directory exists or created
+[Path] Write permission confirmed
+[Main] Detecting Spotify URL type
+[Spotify_api] Detecting Spotify URL type for: https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Detected track URL, ID: 2plbrEY59IikOBgBGLjaoe
+[Main] URL type: track
+[Main] Download started
+[ScraperThread] Initializing...
+[ScraperThread] Spotify link: https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe
+[ScraperThread] Music folder: /home/where/Downloads/SONG/API
+[ScraperThread] Initialized successfully
+[Main] Starting scraper thread
+[MainWindow] Download triggers connected
+[MainWindow] Preview checkbox connected
+[MainWindow] Control buttons connected
+[ScraperThread] Thread started
+[ScraperThread] Detecting Spotify URL type...
+[Spotify_api] Detecting Spotify URL type for: https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Detected track URL, ID: 2plbrEY59IikOBgBGLjaoe
+[ScraperThread] URL type detected: track
+[ScraperThread] Starting track scrape
+[scrape_track] Spotify track link: https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe
+[scrape_track] Music folder      : /home/where/Downloads/SONG/API
+[Spotify_api] Detecting Spotify URL type for: https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Detected track URL, ID: 2plbrEY59IikOBgBGLjaoe
+[scrape_track] Detected URL type : track
+[scrape_track] Track ID          : 2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Initialized PlaylistClient with session: <requests.sessions.Session object at 0x7fac0e56bb60>
+[Spotify_API] Initializing SpotifyEmbedAPI
+[Spotify_API] Session ready
+PlaylistClient created: <spotifydown_api.PlaylistClient object at 0x7fac0e49c1a0>
+Attributes: {'_session': <requests.sessions.Session object at 0x7fac0e56bb60>, '_embed_api': <spotifydown_api.SpotifyEmbedAPI object at 0x7fac0e49c2f0>}
+base_url: None
+[scrape_track] Spotify API initialized
+[Spotify_api] PlaylistClient: Fetching track 2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Getting track metadata for track ID: 2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Fetching metadata for track ID: 2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Embed track URL: https://open.spotify.com/embed/track/2plbrEY59IikOBgBGLjaoe
+
+[Retry_API] Function call started
+[Retry_API] Function name : _fetch_embed_data
+[Retry_API] Raw args : (<spotifydown_api.SpotifyEmbedAPI object at 0x7fac0e49c2f0>, 'https://open.spotify.com/embed/track/2plbrEY59IikOBgBGLjaoe')
+[Retry_API] Raw kwargs : {}
+
+[Retry_API] Attempt : 1 / 3
+[Retry_API] Calling target function...
+
+[Spotify_API] Fetching embed URL : https://open.spotify.com/embed/track/2plbrEY59IikOBgBGLjaoe
+[Spotify_API] Request headers : {'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'accept-language': 'en-US,en;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+[Main] Progress update: Scraping started...
+[Spotify_API] HTTP status : 200
+[Spotify_API] Searching for __NEXT_DATA__
+[Spotify_API] __NEXT_DATA__ found, parsing JSON
+[Spotify_API] JSON parsed successfully
+[Spotify_API] Cached token : True
+[Spotify_API] Token expiry (s) : 1769614168.478
+[Spotify_API] Embed data ready
+[Retry_API] Function executed successfully
+[Retry_API] Result : {'props': {'pageProps': {'state': {'data': {'entity': {'type': 'track', 'name': 'Die With A Smile', 'uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'id': '2plbrEY59IikOBgBGLjaoe', 'title': 'Die With A Smile', 'artists': [{'name': 'Lady Gaga', 'uri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms'}, {'name': 'Bruno Mars', 'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}], 'releaseDate': {'isoString': '2024-08-16T00:00:00Z'}, 'duration': 251667, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': False, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 129, 'green': 87, 'red': 0}, 'backgroundTintedBase': {'alpha': 255, 'blue': 90, 'green': 51, 'red': 0}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 255, 'green': 215, 'red': 134}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000485182ea2e9e1858aa012c57cd45', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'maxHeight': 640, 'maxWidth': 640}]}}, 'embeded_entity_uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'defaultAudioFileObject': {'passthrough': 'NONE'}}, 'settings': {'rtl': False, 'session': {'accessToken': 'BQAqW0ANWTL-oQmHCtIlqGtwMDIw0WeAN_xHcTYhRcu3lTxUKkNKu_nxr0O5iwWFvZuF61ovYfaec01iqLSJd-ZlLvdbKObKvEYJt90pUvuJQ5otDVcOC1Hl9e1xJSZyjP2RfxjrFnQ', 'accessTokenExpirationTimestampMs': 1769614168478, 'isAnonymous': True}, 'entityContext': 'track', 'clientId': 'ab9ad0d96a624805a7d51e8868df1f97', 'isMobile': False, 'isSafari': False, 'isIOS': False, 'isTablet': False, 'isDarkMode': False}, 'machineState': {'initialized': False, 'showOverflowMenu': False, 'playbackMode': 'unknown', 'currentPreviewTrackIndex': 0, 'platformSupportsEncryptedContent': False}}, 'config': {'correlationId': 'e32214d3ef3999cc29d8299452f449df', 'clientId': 'ab9ad0d96a624805a7d51e8868df1f97', 'restrictionId': '', 'strings': {'en': {'translation': {}}}, 'locale': 'en'}, '_sentryTraceData': '24364e40e4aef6c5bc9e6af82d5ec0ea-d4c8c4f4b60dec7f-0', '_sentryBaggage': 'sentry-environment=production,sentry-release=8860aece609540f4203eff844739a545d837fbca,sentry-public_key=4cc707ab12ea4779b417479c0550a5cb,sentry-trace_id=24364e40e4aef6c5bc9e6af82d5ec0ea,sentry-org_id=22381,sentry-sampled=false,sentry-sample_rand=0.6606716182452923,sentry-sample_rate=0'}, '__N_SSP': True}, 'page': '/track/[id]', 'query': {'id': '2plbrEY59IikOBgBGLjaoe'}, 'buildId': 'fdb7a23c-c5ef-4e2e-84d4-d448e27df8dc', 'assetPrefix': 'https://embed-cdn.spotifycdn.com', 'isFallback': False, 'isExperimentalCompile': False, 'gssp': True, 'scriptLoader': []}
+[Spotify_api] Raw embed data keys: ['props', 'page', 'query', 'buildId', 'assetPrefix', 'isFallback', 'isExperimentalCompile', 'gssp', 'scriptLoader']
+[Spotify_api] Starting _extract_entity with data keys: ['props', 'page', 'query', 'buildId', 'assetPrefix', 'isFallback', 'isExperimentalCompile', 'gssp', 'scriptLoader']
+[Spotify_api] Extracted entity: {'type': 'track', 'name': 'Die With A Smile', 'uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'id': '2plbrEY59IikOBgBGLjaoe', 'title': 'Die With A Smile', 'artists': [{'name': 'Lady Gaga', 'uri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms'}, {'name': 'Bruno Mars', 'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}], 'releaseDate': {'isoString': '2024-08-16T00:00:00Z'}, 'duration': 251667, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': False, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 129, 'green': 87, 'red': 0}, 'backgroundTintedBase': {'alpha': 255, 'blue': 90, 'green': 51, 'red': 0}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 255, 'green': 215, 'red': 134}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000485182ea2e9e1858aa012c57cd45', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'maxHeight': 640, 'maxWidth': 640}]}}
+[Spotify_api] Entity extracted: {'type': 'track', 'name': 'Die With A Smile', 'uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'id': '2plbrEY59IikOBgBGLjaoe', 'title': 'Die With A Smile', 'artists': [{'name': 'Lady Gaga', 'uri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms'}, {'name': 'Bruno Mars', 'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}], 'releaseDate': {'isoString': '2024-08-16T00:00:00Z'}, 'duration': 251667, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': False, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 129, 'green': 87, 'red': 0}, 'backgroundTintedBase': {'alpha': 255, 'blue': 90, 'green': 51, 'red': 0}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 255, 'green': 215, 'red': 134}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000485182ea2e9e1858aa012c57cd45', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'maxHeight': 640, 'maxWidth': 640}]}}
+[Spotify_api] Track title: Die With A Smile
+[Spotify_api] Track artists: Lady Gaga, Bruno Mars
+[Spotify_api] Track preview URL: https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788
+[Spotify_api] Track cover URL: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45
+[Spotify_api] Track release date: 2024-08-16
+[Spotify_api] Track album: None
+[Spotify_api] Track duration (ms): 251667
+
+[Spotify_API][TrackInfo] Object created
+[Spotify_API] id           : 2plbrEY59IikOBgBGLjaoe
+[Spotify_API] title        : Die With A Smile
+[Spotify_API] artists      : Lady Gaga, Bruno Mars
+[Spotify_API] album        : None
+[Spotify_API] release_date : 2024-08-16
+[Spotify_API] cover_url    : https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45
+[Spotify_API] duration_ms  : 251667
+[Spotify_API] preview_url  : https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788
+[Spotify_API] raw keys     : ['type', 'name', 'uri', 'id', 'title', 'artists', 'releaseDate', 'duration', 'isPlayable', 'playabilityReason', 'isExplicit', 'isNineteenPlus', 'audioPreview', 'hasVideo', 'relatedEntityUri', 'visualIdentity']
+[Spotify_api] Final TrackInfo object: TrackInfo(id='2plbrEY59IikOBgBGLjaoe', title='Die With A Smile', artists='Lady Gaga, Bruno Mars', album=None, release_date='2024-08-16', cover_url='https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', duration_ms=251667, preview_url='https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788', raw={'type': 'track', 'name': 'Die With A Smile', 'uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'id': '2plbrEY59IikOBgBGLjaoe', 'title': 'Die With A Smile', 'artists': [{'name': 'Lady Gaga', 'uri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms'}, {'name': 'Bruno Mars', 'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}], 'releaseDate': {'isoString': '2024-08-16T00:00:00Z'}, 'duration': 251667, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': False, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 129, 'green': 87, 'red': 0}, 'backgroundTintedBase': {'alpha': 255, 'blue': 90, 'green': 51, 'red': 0}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 255, 'green': 215, 'red': 134}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000485182ea2e9e1858aa012c57cd45', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'maxHeight': 640, 'maxWidth': 640}]}})
+[Spotify_api] Successfully fetched TrackInfo: TrackInfo(id='2plbrEY59IikOBgBGLjaoe', title='Die With A Smile', artists='Lady Gaga, Bruno Mars', album=None, release_date='2024-08-16', cover_url='https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', duration_ms=251667, preview_url='https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788', raw={'type': 'track', 'name': 'Die With A Smile', 'uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'id': '2plbrEY59IikOBgBGLjaoe', 'title': 'Die With A Smile', 'artists': [{'name': 'Lady Gaga', 'uri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms'}, {'name': 'Bruno Mars', 'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}], 'releaseDate': {'isoString': '2024-08-16T00:00:00Z'}, 'duration': 251667, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': False, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 129, 'green': 87, 'red': 0}, 'backgroundTintedBase': {'alpha': 255, 'blue': 90, 'green': 51, 'red': 0}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 255, 'green': 215, 'red': 134}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000485182ea2e9e1858aa012c57cd45', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'maxHeight': 640, 'maxWidth': 640}]}})
+[Spotify_api] PlaylistClient: Retrieved TrackInfo: TrackInfo(id='2plbrEY59IikOBgBGLjaoe', title='Die With A Smile', artists='Lady Gaga, Bruno Mars', album=None, release_date='2024-08-16', cover_url='https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', duration_ms=251667, preview_url='https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788', raw={'type': 'track', 'name': 'Die With A Smile', 'uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'id': '2plbrEY59IikOBgBGLjaoe', 'title': 'Die With A Smile', 'artists': [{'name': 'Lady Gaga', 'uri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms'}, {'name': 'Bruno Mars', 'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}], 'releaseDate': {'isoString': '2024-08-16T00:00:00Z'}, 'duration': 251667, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': False, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 129, 'green': 87, 'red': 0}, 'backgroundTintedBase': {'alpha': 255, 'blue': 90, 'green': 51, 'red': 0}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 255, 'green': 215, 'red': 134}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000485182ea2e9e1858aa012c57cd45', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'maxHeight': 640, 'maxWidth': 640}]}})
+[scrape_track] Track title: Die With A Smile | Artists: Lady Gaga, Bruno Mars
+[UI] Album name updated: Single Track Download
+[sanitize_text] input : Die With A Smile
+[Spotify_api] Sanitizing filename: 'Die With A Smile', allow_spaces=True
+[Spotify_api] After filtering invalid characters: 'Die With A Smile'
+[Spotify_api] After collapsing spaces: 'Die With A Smile'
+[Spotify_api] Final sanitized filename: 'Die With A Smile'
+[sanitize_text] output: Die With A Smile
+[sanitize_text] input : Lady Gaga, Bruno Mars
+[Spotify_api] Sanitizing filename: 'Lady Gaga, Bruno Mars', allow_spaces=True
+[Spotify_api] After filtering invalid characters: 'Lady Gaga Bruno Mars'
+[Spotify_api] After collapsing spaces: 'Lady Gaga Bruno Mars'
+[Spotify_api] Final sanitized filename: 'Lady Gaga Bruno Mars'
+[sanitize_text] output: Lady Gaga Bruno Mars
+[scrape_track] Filepath: /home/where/Downloads/SONG/API/Die With A Smile - Lady Gaga Bruno Mars.mp3
+[scrape_track] Emitting song_meta
+[scrape_track] Search query: ytsearch1:Die With A Smile Lady Gaga, Bruno Mars audio
+[download_track_audio] search_query : ytsearch1:Die With A Smile Lady Gaga, Bruno Mars audio
+[download_track_audio] destination  : /home/where/Downloads/SONG/API/Die With A Smile - Lady Gaga Bruno Mars.mp3
+[UI] Song progress reset
+[UI] update_song_META called
+[UI] Song meta: {'title': 'Die With A Smile', 'artists': 'Lady Gaga, Bruno Mars', 'album': '', 'releaseDate': '2024-08-16', 'cover': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'file': '/home/where/Downloads/SONG/API/Die With A Smile - Lady Gaga Bruno Mars.mp3'}
+[UI] Preview enabled
+[UI] Cover URL found, downloading thumbnail
+[Thumbnail] Thread initialized
+[Thumbnail] URL: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45
+[UI] Main song title updated
+[Thumbnail] Download started
+[download_track_audio] ffmpeg_path  : /usr/bin
+[download_track_audio] output tmpl  : /home/where/Downloads/SONG/API/Die With A Smile - Lady Gaga Bruno Mars.%(ext)s
+[download_track_audio] ydl options set
+[download_track_audio] starting download...
+[Thumbnail] HTTP Status: 200
+[Thumbnail] Thumbnail downloaded
+[Thumbnail] Updating UI
+[Thumbnail] UI updated
+[Thread] Cleaning up thread: <__main__.DownloadThumbnail object at 0x7fac0e3df800>
+[Thread] Thread removed from active list
+[*] Error downloading 'Die With A Smile': [0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden
+[Main] Scraper thread finished
+[Main] Cleaning up scraper thread
+[Main] Download button pressed
+[Main] Spotify URL: https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe
+[Main] Validating download path
+[Path] Checking download path: /home/where/Downloads/SONG/API
+[Path] Directory exists or created
+[Path] Write permission confirmed
+[Main] Detecting Spotify URL type
+[Spotify_api] Detecting Spotify URL type for: https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Detected track URL, ID: 2plbrEY59IikOBgBGLjaoe
+[Main] URL type: track
+[Main] Download started
+[ScraperThread] Initializing...
+[ScraperThread] Spotify link: https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe
+[ScraperThread] Music folder: /home/where/Downloads/SONG/API
+[ScraperThread] Initialized successfully
+[Main] Starting scraper thread
+[ScraperThread] Thread started
+[ScraperThread] Detecting Spotify URL type...
+[Spotify_api] Detecting Spotify URL type for: https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Detected track URL, ID: 2plbrEY59IikOBgBGLjaoe
+[ScraperThread] URL type detected: track
+[ScraperThread] Starting track scrape
+[scrape_track] Spotify track link: https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe
+[scrape_track] Music folder      : /home/where/Downloads/SONG/API
+[Spotify_api] Detecting Spotify URL type for: https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Detected track URL, ID: 2plbrEY59IikOBgBGLjaoe
+[scrape_track] Detected URL type : track
+[scrape_track] Track ID          : 2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Initialized PlaylistClient with session: <requests.sessions.Session object at 0x7fac0e416fd0>
+[Spotify_API] Initializing SpotifyEmbedAPI
+[Spotify_API] Session ready
+PlaylistClient created: <spotifydown_api.PlaylistClient object at 0x7fac0e4147d0>
+Attributes: {'_session': <requests.sessions.Session object at 0x7fac0e416fd0>, '_embed_api': <spotifydown_api.SpotifyEmbedAPI object at 0x7fac0e414b90>}
+base_url: None
+[scrape_track] Spotify API initialized
+[Spotify_api] PlaylistClient: Fetching track 2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Getting track metadata for track ID: 2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Fetching metadata for track ID: 2plbrEY59IikOBgBGLjaoe
+[Spotify_api] Embed track URL: https://open.spotify.com/embed/track/2plbrEY59IikOBgBGLjaoe
+
+[Retry_API] Function call started
+[Retry_API] Function name : _fetch_embed_data
+[Retry_API] Raw args : (<spotifydown_api.SpotifyEmbedAPI object at 0x7fac0e414b90>, 'https://open.spotify.com/embed/track/2plbrEY59IikOBgBGLjaoe')
+[Retry_API] Raw kwargs : {}
+
+[Retry_API] Attempt : 1 / 3
+[Retry_API] Calling target function...
+
+[Spotify_API] Fetching embed URL : https://open.spotify.com/embed/track/2plbrEY59IikOBgBGLjaoe
+[Spotify_API] Request headers : {'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'accept-language': 'en-US,en;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+[Main] Progress update: Scraping started...
+[Spotify_API] HTTP status : 200
+[Spotify_API] Searching for __NEXT_DATA__
+[Spotify_API] __NEXT_DATA__ found, parsing JSON
+[Spotify_API] JSON parsed successfully
+[Spotify_API] Cached token : True
+[Spotify_API] Token expiry (s) : 1769614168.478
+[Spotify_API] Embed data ready
+[Retry_API] Function executed successfully
+[Retry_API] Result : {'props': {'pageProps': {'state': {'data': {'entity': {'type': 'track', 'name': 'Die With A Smile', 'uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'id': '2plbrEY59IikOBgBGLjaoe', 'title': 'Die With A Smile', 'artists': [{'name': 'Lady Gaga', 'uri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms'}, {'name': 'Bruno Mars', 'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}], 'releaseDate': {'isoString': '2024-08-16T00:00:00Z'}, 'duration': 251667, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': False, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 129, 'green': 87, 'red': 0}, 'backgroundTintedBase': {'alpha': 255, 'blue': 90, 'green': 51, 'red': 0}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 255, 'green': 215, 'red': 134}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000485182ea2e9e1858aa012c57cd45', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'maxHeight': 640, 'maxWidth': 640}]}}, 'embeded_entity_uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'defaultAudioFileObject': {'passthrough': 'NONE'}}, 'settings': {'rtl': False, 'session': {'accessToken': 'BQAqW0ANWTL-oQmHCtIlqGtwMDIw0WeAN_xHcTYhRcu3lTxUKkNKu_nxr0O5iwWFvZuF61ovYfaec01iqLSJd-ZlLvdbKObKvEYJt90pUvuJQ5otDVcOC1Hl9e1xJSZyjP2RfxjrFnQ', 'accessTokenExpirationTimestampMs': 1769614168478, 'isAnonymous': True}, 'entityContext': 'track', 'clientId': 'ab9ad0d96a624805a7d51e8868df1f97', 'isMobile': False, 'isSafari': False, 'isIOS': False, 'isTablet': False, 'isDarkMode': False}, 'machineState': {'initialized': False, 'showOverflowMenu': False, 'playbackMode': 'unknown', 'currentPreviewTrackIndex': 0, 'platformSupportsEncryptedContent': False}}, 'config': {'correlationId': '0e0a896df138fa71124ff35824942657', 'clientId': 'ab9ad0d96a624805a7d51e8868df1f97', 'restrictionId': '', 'strings': {'en': {'translation': {}}}, 'locale': 'en'}, '_sentryTraceData': '45ff304be475924042be93c60143ed4f-dce60316855c2d0b-0', '_sentryBaggage': 'sentry-environment=production,sentry-release=8860aece609540f4203eff844739a545d837fbca,sentry-public_key=4cc707ab12ea4779b417479c0550a5cb,sentry-trace_id=45ff304be475924042be93c60143ed4f,sentry-org_id=22381,sentry-sampled=false,sentry-sample_rand=0.6046505985855131,sentry-sample_rate=0'}, '__N_SSP': True}, 'page': '/track/[id]', 'query': {'id': '2plbrEY59IikOBgBGLjaoe'}, 'buildId': 'fdb7a23c-c5ef-4e2e-84d4-d448e27df8dc', 'assetPrefix': 'https://embed-cdn.spotifycdn.com', 'isFallback': False, 'isExperimentalCompile': False, 'gssp': True, 'scriptLoader': []}
+[Spotify_api] Raw embed data keys: ['props', 'page', 'query', 'buildId', 'assetPrefix', 'isFallback', 'isExperimentalCompile', 'gssp', 'scriptLoader']
+[Spotify_api] Starting _extract_entity with data keys: ['props', 'page', 'query', 'buildId', 'assetPrefix', 'isFallback', 'isExperimentalCompile', 'gssp', 'scriptLoader']
+[Spotify_api] Extracted entity: {'type': 'track', 'name': 'Die With A Smile', 'uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'id': '2plbrEY59IikOBgBGLjaoe', 'title': 'Die With A Smile', 'artists': [{'name': 'Lady Gaga', 'uri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms'}, {'name': 'Bruno Mars', 'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}], 'releaseDate': {'isoString': '2024-08-16T00:00:00Z'}, 'duration': 251667, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': False, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 129, 'green': 87, 'red': 0}, 'backgroundTintedBase': {'alpha': 255, 'blue': 90, 'green': 51, 'red': 0}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 255, 'green': 215, 'red': 134}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000485182ea2e9e1858aa012c57cd45', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'maxHeight': 640, 'maxWidth': 640}]}}
+[Spotify_api] Entity extracted: {'type': 'track', 'name': 'Die With A Smile', 'uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'id': '2plbrEY59IikOBgBGLjaoe', 'title': 'Die With A Smile', 'artists': [{'name': 'Lady Gaga', 'uri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms'}, {'name': 'Bruno Mars', 'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}], 'releaseDate': {'isoString': '2024-08-16T00:00:00Z'}, 'duration': 251667, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': False, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 129, 'green': 87, 'red': 0}, 'backgroundTintedBase': {'alpha': 255, 'blue': 90, 'green': 51, 'red': 0}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 255, 'green': 215, 'red': 134}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000485182ea2e9e1858aa012c57cd45', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'maxHeight': 640, 'maxWidth': 640}]}}
+[Spotify_api] Track title: Die With A Smile
+[Spotify_api] Track artists: Lady Gaga, Bruno Mars
+[Spotify_api] Track preview URL: https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788
+[Spotify_api] Track cover URL: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45
+[Spotify_api] Track release date: 2024-08-16
+[Spotify_api] Track album: None
+[Spotify_api] Track duration (ms): 251667
+
+[Spotify_API][TrackInfo] Object created
+[Spotify_API] id           : 2plbrEY59IikOBgBGLjaoe
+[Spotify_API] title        : Die With A Smile
+[Spotify_API] artists      : Lady Gaga, Bruno Mars
+[Spotify_API] album        : None
+[Spotify_API] release_date : 2024-08-16
+[Spotify_API] cover_url    : https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45
+[Spotify_API] duration_ms  : 251667
+[Spotify_API] preview_url  : https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788
+[Spotify_API] raw keys     : ['type', 'name', 'uri', 'id', 'title', 'artists', 'releaseDate', 'duration', 'isPlayable', 'playabilityReason', 'isExplicit', 'isNineteenPlus', 'audioPreview', 'hasVideo', 'relatedEntityUri', 'visualIdentity']
+[Spotify_api] Final TrackInfo object: TrackInfo(id='2plbrEY59IikOBgBGLjaoe', title='Die With A Smile', artists='Lady Gaga, Bruno Mars', album=None, release_date='2024-08-16', cover_url='https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', duration_ms=251667, preview_url='https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788', raw={'type': 'track', 'name': 'Die With A Smile', 'uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'id': '2plbrEY59IikOBgBGLjaoe', 'title': 'Die With A Smile', 'artists': [{'name': 'Lady Gaga', 'uri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms'}, {'name': 'Bruno Mars', 'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}], 'releaseDate': {'isoString': '2024-08-16T00:00:00Z'}, 'duration': 251667, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': False, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 129, 'green': 87, 'red': 0}, 'backgroundTintedBase': {'alpha': 255, 'blue': 90, 'green': 51, 'red': 0}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 255, 'green': 215, 'red': 134}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000485182ea2e9e1858aa012c57cd45', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'maxHeight': 640, 'maxWidth': 640}]}})
+[Spotify_api] Successfully fetched TrackInfo: TrackInfo(id='2plbrEY59IikOBgBGLjaoe', title='Die With A Smile', artists='Lady Gaga, Bruno Mars', album=None, release_date='2024-08-16', cover_url='https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', duration_ms=251667, preview_url='https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788', raw={'type': 'track', 'name': 'Die With A Smile', 'uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'id': '2plbrEY59IikOBgBGLjaoe', 'title': 'Die With A Smile', 'artists': [{'name': 'Lady Gaga', 'uri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms'}, {'name': 'Bruno Mars', 'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}], 'releaseDate': {'isoString': '2024-08-16T00:00:00Z'}, 'duration': 251667, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': False, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 129, 'green': 87, 'red': 0}, 'backgroundTintedBase': {'alpha': 255, 'blue': 90, 'green': 51, 'red': 0}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 255, 'green': 215, 'red': 134}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000485182ea2e9e1858aa012c57cd45', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'maxHeight': 640, 'maxWidth': 640}]}})
+[Spotify_api] PlaylistClient: Retrieved TrackInfo: TrackInfo(id='2plbrEY59IikOBgBGLjaoe', title='Die With A Smile', artists='Lady Gaga, Bruno Mars', album=None, release_date='2024-08-16', cover_url='https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', duration_ms=251667, preview_url='https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788', raw={'type': 'track', 'name': 'Die With A Smile', 'uri': 'spotify:track:2plbrEY59IikOBgBGLjaoe', 'id': '2plbrEY59IikOBgBGLjaoe', 'title': 'Die With A Smile', 'artists': [{'name': 'Lady Gaga', 'uri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms'}, {'name': 'Bruno Mars', 'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}], 'releaseDate': {'isoString': '2024-08-16T00:00:00Z'}, 'duration': 251667, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': False, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/07cebc34d49ff7a0f1ce21e4902ebbf3238f6788'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:1HY2Jd0NmPuamShAr6KMms', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 129, 'green': 87, 'red': 0}, 'backgroundTintedBase': {'alpha': 255, 'blue': 90, 'green': 51, 'red': 0}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 255, 'green': 215, 'red': 134}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000485182ea2e9e1858aa012c57cd45', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'maxHeight': 640, 'maxWidth': 640}]}})
+[download]   0.0% of    3.93MiB at  936.44KiB/s ETA 00:04
+[scrape_track] Track title: Die With A Smile | Artists: Lady Gaga, Bruno Mars
+[UI] Album name updated: Single Track Download
+[sanitize_text] input : Die With A Smile
+[Spotify_api] Sanitizing filename: 'Die With A Smile', allow_spaces=True
+[Spotify_api] After filtering invalid characters: 'Die With A Smile'
+[Spotify_api] After collapsing spaces: 'Die With A Smile'
+[Spotify_api] Final sanitized filename: 'Die With A Smile'
+[sanitize_text] output: Die With A Smile
+[sanitize_text] input : Lady Gaga, Bruno Mars
+[Spotify_api] Sanitizing filename: 'Lady Gaga, Bruno Mars', allow_spaces=True
+[Spotify_api] After filtering invalid characters: 'Lady Gaga Bruno Mars'
+[Spotify_api] After collapsing spaces: 'Lady Gaga Bruno Mars'
+[Spotify_api] Final sanitized filename: 'Lady Gaga Bruno Mars'
+[sanitize_text] output: Lady Gaga Bruno Mars
+[scrape_track] Filepath: /home/where/Downloads/SONG/API/Die With A Smile - Lady Gaga Bruno Mars.mp3
+[scrape_track] Emitting song_meta
+[UI] Song progress reset
+[UI] update_song_META called
+[UI] Song meta: {'title': 'Die With A Smile', 'artists': 'Lady Gaga, Bruno Mars', 'album': '', 'releaseDate': '2024-08-16', 'cover': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45', 'file': '/home/where/Downloads/SONG/API/Die With A Smile - Lady Gaga Bruno Mars.mp3'}
+[UI] Preview enabled
+[UI] Cover URL found, downloading thumbnail
+[scrape_track] Search query: ytsearch1:Die With A Smile Lady Gaga, Bruno Mars audio
+[download_track_audio] search_query : ytsearch1:Die With A Smile Lady Gaga, Bruno Mars audio
+[download_track_audio] destination  : /home/where/Downloads/SONG/API/Die With A Smile - Lady Gaga Bruno Mars.mp3
+[download_track_audio] ffmpeg_path  : /usr/bin
+[download_track_audio] output tmpl  : /home/where/Downloads/SONG/API/Die With A Smile - Lady Gaga Bruno Mars.%(ext)s
+[download_track_audio] ydl options set
+[Thumbnail] Thread initialized
+[Thumbnail] URL: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45
+[Thumbnail] Download started
+[UI] Main song title updated
+[download_track_audio] starting download...
+[Thumbnail] HTTP Status: 200
+[Thumbnail] Thumbnail downloaded
+[Thumbnail] Updating UI
+[Thumbnail] UI updated
+[Thread] Cleaning up thread: <__main__.DownloadThumbnail object at 0x7fac0e3df890>
+[Thread] Thread removed from active list
+[download]   0.1% of    3.93MiB at    1.75MiB/s ETA 00:02
+[download]   0.2% of    3.93MiB at    3.25MiB/s ETA 00:01
+[download]   0.4% of    3.93MiB at    5.79MiB/s ETA 00:00
+[download]   0.8% of    3.93MiB at    7.55MiB/s ETA 00:00
+[download]   1.6% of    3.93MiB at    9.06MiB/s ETA 00:00
+[download]   3.2% of    3.93MiB at    9.98MiB/s ETA 00:00
+[download]   6.3% of    3.93MiB at   10.52MiB/s ETA 00:00
+[download]  12.7% of    3.93MiB at   10.79MiB/s ETA 00:00
+[download]  25.4% of    3.93MiB at   10.93MiB/s ETA 00:00
+[download]  50.9% of    3.93MiB at   11.01MiB/s ETA 00:00
+[download] 100.0% of    3.93MiB at   11.06MiB/s ETA 00:00
+[download] 100% of    3.93MiB in 00:00:00 at 9.41MiB/s   
+                                                      
+[download_track_audio] playlist entry detected → first item
+[download_track_audio] expected path: /home/where/Downloads/SONG/API/Die With A Smile - Lady Gaga Bruno Mars.mp3
+[download_track_audio] file found: /home/where/Downloads/SONG/API/Die With A Smile - Lady Gaga Bruno Mars.mp3
+[scrape_track] Download finished: /home/where/Downloads/SONG/API/Die With A Smile - Lady Gaga Bruno Mars.mp3
+[increment_counter] Counter updated: 1
+[scrape_track] Download Complete!
+[UI] add_song_META called
+[UI] Metadata writing enabled
+[MetaTags] Thread initialized
+[MetaTags] Target file: /home/where/Downloads/SONG/API/Die With A Smile - Lady Gaga Bruno Mars.mp3
+[UI] Download count: 1
+[MetaTags] Writing ID3 tags...
+[UI] Song progress: 100
+[Main] Scraper thread finished
+[Main] Cleaning up scraper thread
+[MetaTags] Text tags saved
+[MetaTags] Cover URL found, downloading...
+[DownloadCover] Initialized with URL: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0282ea2e9e1858aa012c57cd45
+[DownloadCover] Download started
+[Thread] Cleaning up thread: <__main__.WritingMetaTagsThread object at 0x7fac0e3df920>
+[Thread] Thread removed from active list
+[DownloadCover] HTTP Status: 200
+[DownloadCover] Cover downloaded successfully
+[MetaTags] Adding cover image...
+[MetaTags] Cover added successfully
+[MetaTags] Error adding cover: cannot access local variable 'sys' where it is not associated with a value
+❌ Download failed for 2plbrEY59IikOBgBGLjaoe (exit code 1)
+Downloading track: 3sK8wGT43QFpWrvNQsrQya
+[Retry_API] Initialized decorator
+[Retry_API] max_attempts : 3
+[Retry_API] backoff_factor : 1.0
+[Retry_API] exceptions : (<class 'spotifydown_api.NetworkError'>, <class 'requests.exceptions.Timeout'>, <class 'requests.exceptions.ConnectionError'>)
+--------------------------------------------------
+[Retry_API] Decorating function : _fetch_embed_data
+[MainWindow] Initializing...
+[Path] Resolving default download path
+[Path] Base path: /home/where/Music/Sunnify
+[Path] Final download path: /home/where/Music/Sunnify
+[MainWindow] Default download path: /home/where/Music/Sunnify
+[MainWindow] UI effects applied
+[Main] Download button pressed
+[Main] Spotify URL: https://open.spotify.com/track/3sK8wGT43QFpWrvNQsrQya
+[Main] Setting default download folder
+[Main] Validating download path
+[Path] Checking download path: /home/where/Downloads/SONG/API
+[Path] Directory exists or created
+[Path] Write permission confirmed
+[Main] Detecting Spotify URL type
+[Spotify_api] Detecting Spotify URL type for: https://open.spotify.com/track/3sK8wGT43QFpWrvNQsrQya
+[Spotify_api] Detected track URL, ID: 3sK8wGT43QFpWrvNQsrQya
+[Main] URL type: track
+[Main] Download started
+[ScraperThread] Initializing...
+[ScraperThread] Spotify link: https://open.spotify.com/track/3sK8wGT43QFpWrvNQsrQya
+[ScraperThread] Music folder: /home/where/Downloads/SONG/API
+[ScraperThread] Initialized successfully
+[Main] Starting scraper thread
+[MainWindow] Download triggers connected
+[MainWindow] Preview checkbox connected
+[ScraperThread] Thread started
+[ScraperThread] Detecting Spotify URL type...
+[Spotify_api] Detecting Spotify URL type for: https://open.spotify.com/track/3sK8wGT43QFpWrvNQsrQya
+[Spotify_api] Detected track URL, ID: 3sK8wGT43QFpWrvNQsrQya
+[ScraperThread] URL type detected: track
+[ScraperThread] Starting track scrape
+[scrape_track] Spotify track link: https://open.spotify.com/track/3sK8wGT43QFpWrvNQsrQya
+[scrape_track] Music folder      : /home/where/Downloads/SONG/API
+[Spotify_api] Detecting Spotify URL type for: https://open.spotify.com/track/3sK8wGT43QFpWrvNQsrQya
+[Spotify_api] Detected track URL, ID: 3sK8wGT43QFpWrvNQsrQya
+[scrape_track] Detected URL type : track
+[scrape_track] Track ID          : 3sK8wGT43QFpWrvNQsrQya
+[Spotify_api] Initialized PlaylistClient with session: <requests.sessions.Session object at 0x7f3252b5bb60>
+[Spotify_API] Initializing SpotifyEmbedAPI
+[Spotify_API] Session ready
+PlaylistClient created: <spotifydown_api.PlaylistClient object at 0x7f3252a8c1a0>
+Attributes: {'_session': <requests.sessions.Session object at 0x7f3252b5bb60>, '_embed_api': <spotifydown_api.SpotifyEmbedAPI object at 0x7f3252a8c2f0>}
+base_url: None
+[scrape_track] Spotify API initialized
+[Spotify_api] PlaylistClient: Fetching track 3sK8wGT43QFpWrvNQsrQya
+[Spotify_api] Getting track metadata for track ID: 3sK8wGT43QFpWrvNQsrQya
+[Spotify_api] Fetching metadata for track ID: 3sK8wGT43QFpWrvNQsrQya
+[Spotify_api] Embed track URL: https://open.spotify.com/embed/track/3sK8wGT43QFpWrvNQsrQya
+
+[Retry_API] Function call started
+[Retry_API] Function name : _fetch_embed_data
+[Retry_API] Raw args : (<spotifydown_api.SpotifyEmbedAPI object at 0x7f3252a8c2f0>, 'https://open.spotify.com/embed/track/3sK8wGT43QFpWrvNQsrQya')
+[Retry_API] Raw kwargs : {}
+
+[Retry_API] Attempt : 1 / 3
+[Retry_API] Calling target function...
+
+[Spotify_API] Fetching embed URL : https://open.spotify.com/embed/track/3sK8wGT43QFpWrvNQsrQya
+[Spotify_API] Request headers : {'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'accept-language': 'en-US,en;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+[MainWindow] Control buttons connected
+[Main] Progress update: Scraping started...
+[Spotify_API] HTTP status : 200
+[Spotify_API] Searching for __NEXT_DATA__
+[Spotify_API] __NEXT_DATA__ found, parsing JSON
+[Spotify_API] JSON parsed successfully
+[Spotify_API] Cached token : True
+[Spotify_API] Token expiry (s) : 1769614168.478
+[Spotify_API] Embed data ready
+[Retry_API] Function executed successfully
+[Retry_API] Result : {'props': {'pageProps': {'state': {'data': {'entity': {'type': 'track', 'name': 'DtMF', 'uri': 'spotify:track:3sK8wGT43QFpWrvNQsrQya', 'id': '3sK8wGT43QFpWrvNQsrQya', 'title': 'DtMF', 'artists': [{'name': 'Bad Bunny', 'uri': 'spotify:artist:4q3ewBCX7sLwd24euuV69X'}], 'releaseDate': {'isoString': '2025-01-05T00:00:00Z'}, 'duration': 237117, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': True, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/e41ce6b82410d81c08baacca2a7169e5ace4287d'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:4q3ewBCX7sLwd24euuV69X', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 32, 'green': 88, 'red': 64}, 'backgroundTintedBase': {'alpha': 255, 'blue': 0, 'green': 53, 'red': 32}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 162, 'green': 214, 'red': 188}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00004851bbd45c8d36e0e045ef640411', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bbd45c8d36e0e045ef640411', 'maxHeight': 640, 'maxWidth': 640}]}}, 'embeded_entity_uri': 'spotify:track:3sK8wGT43QFpWrvNQsrQya', 'defaultAudioFileObject': {'passthrough': 'NONE'}}, 'settings': {'rtl': False, 'session': {'accessToken': 'BQAqW0ANWTL-oQmHCtIlqGtwMDIw0WeAN_xHcTYhRcu3lTxUKkNKu_nxr0O5iwWFvZuF61ovYfaec01iqLSJd-ZlLvdbKObKvEYJt90pUvuJQ5otDVcOC1Hl9e1xJSZyjP2RfxjrFnQ', 'accessTokenExpirationTimestampMs': 1769614168478, 'isAnonymous': True}, 'entityContext': 'track', 'clientId': 'ab9ad0d96a624805a7d51e8868df1f97', 'isMobile': False, 'isSafari': False, 'isIOS': False, 'isTablet': False, 'isDarkMode': False}, 'machineState': {'initialized': False, 'showOverflowMenu': False, 'playbackMode': 'unknown', 'currentPreviewTrackIndex': 0, 'platformSupportsEncryptedContent': False}}, 'config': {'correlationId': '028a2d09e7d8003fc7544fb965d6df64', 'clientId': 'ab9ad0d96a624805a7d51e8868df1f97', 'restrictionId': '', 'strings': {'en': {'translation': {}}}, 'locale': 'en'}, '_sentryTraceData': '809ba1347a9184bd0f37b1ea1f5312d5-4753be2404d54391-0', '_sentryBaggage': 'sentry-environment=production,sentry-release=8860aece609540f4203eff844739a545d837fbca,sentry-public_key=4cc707ab12ea4779b417479c0550a5cb,sentry-trace_id=809ba1347a9184bd0f37b1ea1f5312d5,sentry-org_id=22381,sentry-sampled=false,sentry-sample_rand=0.934745788195563,sentry-sample_rate=0'}, '__N_SSP': True}, 'page': '/track/[id]', 'query': {'id': '3sK8wGT43QFpWrvNQsrQya'}, 'buildId': 'fdb7a23c-c5ef-4e2e-84d4-d448e27df8dc', 'assetPrefix': 'https://embed-cdn.spotifycdn.com', 'isFallback': False, 'isExperimentalCompile': False, 'gssp': True, 'scriptLoader': []}
+[Spotify_api] Raw embed data keys: ['props', 'page', 'query', 'buildId', 'assetPrefix', 'isFallback', 'isExperimentalCompile', 'gssp', 'scriptLoader']
+[Spotify_api] Starting _extract_entity with data keys: ['props', 'page', 'query', 'buildId', 'assetPrefix', 'isFallback', 'isExperimentalCompile', 'gssp', 'scriptLoader']
+[Spotify_api] Extracted entity: {'type': 'track', 'name': 'DtMF', 'uri': 'spotify:track:3sK8wGT43QFpWrvNQsrQya', 'id': '3sK8wGT43QFpWrvNQsrQya', 'title': 'DtMF', 'artists': [{'name': 'Bad Bunny', 'uri': 'spotify:artist:4q3ewBCX7sLwd24euuV69X'}], 'releaseDate': {'isoString': '2025-01-05T00:00:00Z'}, 'duration': 237117, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': True, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/e41ce6b82410d81c08baacca2a7169e5ace4287d'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:4q3ewBCX7sLwd24euuV69X', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 32, 'green': 88, 'red': 64}, 'backgroundTintedBase': {'alpha': 255, 'blue': 0, 'green': 53, 'red': 32}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 162, 'green': 214, 'red': 188}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00004851bbd45c8d36e0e045ef640411', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bbd45c8d36e0e045ef640411', 'maxHeight': 640, 'maxWidth': 640}]}}
+[Spotify_api] Entity extracted: {'type': 'track', 'name': 'DtMF', 'uri': 'spotify:track:3sK8wGT43QFpWrvNQsrQya', 'id': '3sK8wGT43QFpWrvNQsrQya', 'title': 'DtMF', 'artists': [{'name': 'Bad Bunny', 'uri': 'spotify:artist:4q3ewBCX7sLwd24euuV69X'}], 'releaseDate': {'isoString': '2025-01-05T00:00:00Z'}, 'duration': 237117, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': True, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/e41ce6b82410d81c08baacca2a7169e5ace4287d'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:4q3ewBCX7sLwd24euuV69X', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 32, 'green': 88, 'red': 64}, 'backgroundTintedBase': {'alpha': 255, 'blue': 0, 'green': 53, 'red': 32}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 162, 'green': 214, 'red': 188}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00004851bbd45c8d36e0e045ef640411', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bbd45c8d36e0e045ef640411', 'maxHeight': 640, 'maxWidth': 640}]}}
+[Spotify_api] Track title: DtMF
+[Spotify_api] Track artists: Bad Bunny
+[Spotify_api] Track preview URL: https://p.scdn.co/mp3-preview/e41ce6b82410d81c08baacca2a7169e5ace4287d
+[Spotify_api] Track cover URL: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411
+[Spotify_api] Track release date: 2025-01-05
+[Spotify_api] Track album: None
+[Spotify_api] Track duration (ms): 237117
+
+[Spotify_API][TrackInfo] Object created
+[Spotify_API] id           : 3sK8wGT43QFpWrvNQsrQya
+[Spotify_API] title        : DtMF
+[Spotify_API] artists      : Bad Bunny
+[Spotify_API] album        : None
+[Spotify_API] release_date : 2025-01-05
+[Spotify_API] cover_url    : https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411
+[Spotify_API] duration_ms  : 237117
+[Spotify_API] preview_url  : https://p.scdn.co/mp3-preview/e41ce6b82410d81c08baacca2a7169e5ace4287d
+[Spotify_API] raw keys     : ['type', 'name', 'uri', 'id', 'title', 'artists', 'releaseDate', 'duration', 'isPlayable', 'playabilityReason', 'isExplicit', 'isNineteenPlus', 'audioPreview', 'hasVideo', 'relatedEntityUri', 'visualIdentity']
+[Spotify_api] Final TrackInfo object: TrackInfo(id='3sK8wGT43QFpWrvNQsrQya', title='DtMF', artists='Bad Bunny', album=None, release_date='2025-01-05', cover_url='https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411', duration_ms=237117, preview_url='https://p.scdn.co/mp3-preview/e41ce6b82410d81c08baacca2a7169e5ace4287d', raw={'type': 'track', 'name': 'DtMF', 'uri': 'spotify:track:3sK8wGT43QFpWrvNQsrQya', 'id': '3sK8wGT43QFpWrvNQsrQya', 'title': 'DtMF', 'artists': [{'name': 'Bad Bunny', 'uri': 'spotify:artist:4q3ewBCX7sLwd24euuV69X'}], 'releaseDate': {'isoString': '2025-01-05T00:00:00Z'}, 'duration': 237117, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': True, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/e41ce6b82410d81c08baacca2a7169e5ace4287d'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:4q3ewBCX7sLwd24euuV69X', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 32, 'green': 88, 'red': 64}, 'backgroundTintedBase': {'alpha': 255, 'blue': 0, 'green': 53, 'red': 32}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 162, 'green': 214, 'red': 188}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00004851bbd45c8d36e0e045ef640411', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bbd45c8d36e0e045ef640411', 'maxHeight': 640, 'maxWidth': 640}]}})
+[Spotify_api] Successfully fetched TrackInfo: TrackInfo(id='3sK8wGT43QFpWrvNQsrQya', title='DtMF', artists='Bad Bunny', album=None, release_date='2025-01-05', cover_url='https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411', duration_ms=237117, preview_url='https://p.scdn.co/mp3-preview/e41ce6b82410d81c08baacca2a7169e5ace4287d', raw={'type': 'track', 'name': 'DtMF', 'uri': 'spotify:track:3sK8wGT43QFpWrvNQsrQya', 'id': '3sK8wGT43QFpWrvNQsrQya', 'title': 'DtMF', 'artists': [{'name': 'Bad Bunny', 'uri': 'spotify:artist:4q3ewBCX7sLwd24euuV69X'}], 'releaseDate': {'isoString': '2025-01-05T00:00:00Z'}, 'duration': 237117, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': True, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/e41ce6b82410d81c08baacca2a7169e5ace4287d'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:4q3ewBCX7sLwd24euuV69X', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 32, 'green': 88, 'red': 64}, 'backgroundTintedBase': {'alpha': 255, 'blue': 0, 'green': 53, 'red': 32}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 162, 'green': 214, 'red': 188}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00004851bbd45c8d36e0e045ef640411', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bbd45c8d36e0e045ef640411', 'maxHeight': 640, 'maxWidth': 640}]}})
+[Spotify_api] PlaylistClient: Retrieved TrackInfo: TrackInfo(id='3sK8wGT43QFpWrvNQsrQya', title='DtMF', artists='Bad Bunny', album=None, release_date='2025-01-05', cover_url='https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411', duration_ms=237117, preview_url='https://p.scdn.co/mp3-preview/e41ce6b82410d81c08baacca2a7169e5ace4287d', raw={'type': 'track', 'name': 'DtMF', 'uri': 'spotify:track:3sK8wGT43QFpWrvNQsrQya', 'id': '3sK8wGT43QFpWrvNQsrQya', 'title': 'DtMF', 'artists': [{'name': 'Bad Bunny', 'uri': 'spotify:artist:4q3ewBCX7sLwd24euuV69X'}], 'releaseDate': {'isoString': '2025-01-05T00:00:00Z'}, 'duration': 237117, 'isPlayable': True, 'playabilityReason': 'PLAYABLE', 'isExplicit': True, 'isNineteenPlus': False, 'audioPreview': {'url': 'https://p.scdn.co/mp3-preview/e41ce6b82410d81c08baacca2a7169e5ace4287d'}, 'hasVideo': False, 'relatedEntityUri': 'spotify:artist:4q3ewBCX7sLwd24euuV69X', 'visualIdentity': {'backgroundBase': {'alpha': 255, 'blue': 32, 'green': 88, 'red': 64}, 'backgroundTintedBase': {'alpha': 255, 'blue': 0, 'green': 53, 'red': 32}, 'textBase': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textBrightAccent': {'alpha': 255, 'blue': 255, 'green': 255, 'red': 255}, 'textSubdued': {'alpha': 255, 'blue': 162, 'green': 214, 'red': 188}, 'image': [{'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411', 'maxHeight': 300, 'maxWidth': 300}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00004851bbd45c8d36e0e045ef640411', 'maxHeight': 64, 'maxWidth': 64}, {'url': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bbd45c8d36e0e045ef640411', 'maxHeight': 640, 'maxWidth': 640}]}})
+[scrape_track] Track title: DtMF | Artists: Bad Bunny
+[sanitize_text] input : DtMF
+[Spotify_api] Sanitizing filename: 'DtMF', allow_spaces=True
+[Spotify_api] After filtering invalid characters: 'DtMF'
+[Spotify_api] After collapsing spaces: 'DtMF'
+[Spotify_api] Final sanitized filename: 'DtMF'
+[sanitize_text] output: DtMF
+[sanitize_text] input : Bad Bunny
+[Spotify_api] Sanitizing filename: 'Bad Bunny', allow_spaces=True
+[Spotify_api] After filtering invalid characters: 'Bad Bunny'
+[Spotify_api] After collapsing spaces: 'Bad Bunny'
+[Spotify_api] Final sanitized filename: 'Bad Bunny'
+[download]   0.0% of    4.09MiB at  934.98KiB/s ETA 00:04
+[sanitize_text] output: Bad Bunny
+[scrape_track] Filepath: /home/where/Downloads/SONG/API/DtMF - Bad Bunny.mp3
+[scrape_track] Emitting song_meta
+[scrape_track] Search query: ytsearch1:DtMF Bad Bunny audio
+[download_track_audio] search_query : ytsearch1:DtMF Bad Bunny audio
+[download_track_audio] destination  : /home/where/Downloads/SONG/API/DtMF - Bad Bunny.mp3
+[download_track_audio] ffmpeg_path  : /usr/bin
+[download_track_audio] output tmpl  : /home/where/Downloads/SONG/API/DtMF - Bad Bunny.%(ext)s
+[download_track_audio] ydl options set
+[UI] Album name updated: Single Track Download
+[UI] Song progress reset
+[UI] update_song_META called
+[UI] Song meta: {'title': 'DtMF', 'artists': 'Bad Bunny', 'album': '', 'releaseDate': '2025-01-05', 'cover': 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411', 'file': '/home/where/Downloads/SONG/API/DtMF - Bad Bunny.mp3'}
+[UI] Preview enabled
+[UI] Cover URL found, downloading thumbnail
+[Thumbnail] Thread initialized
+[Thumbnail] URL: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411
+[UI] Main song title updated
+[Thumbnail] Download started
+[Thumbnail] HTTP Status: 200
+[Thumbnail] Thumbnail downloaded
+[Thumbnail] Updating UI
+[Thumbnail] UI updated
+[download_track_audio] starting download...
+[Thread] Cleaning up thread: <__main__.DownloadThumbnail object at 0x7f32529db9b0>
+[Thread] Thread removed from active list
+[download]   0.1% of    4.09MiB at    1.75MiB/s ETA 00:02
+[download]   0.2% of    4.09MiB at    3.21MiB/s ETA 00:01
+[download]   0.4% of    4.09MiB at    5.73MiB/s ETA 00:00
+[download]   0.7% of    4.09MiB at    7.29MiB/s ETA 00:00
+[download]   1.5% of    4.09MiB at    8.84MiB/s ETA 00:00
+[download]   3.0% of    4.09MiB at    9.83MiB/s ETA 00:00
+[download]   6.1% of    4.09MiB at   10.46MiB/s ETA 00:00
+[download]  12.2% of    4.09MiB at   10.76MiB/s ETA 00:00
+[download]  24.4% of    4.09MiB at   10.93MiB/s ETA 00:00
+[download]  48.9% of    4.09MiB at   10.99MiB/s ETA 00:00
+[download]  97.7% of    4.09MiB at   10.99MiB/s ETA 00:00
+[download] 100.0% of    4.09MiB at   11.13MiB/s ETA 00:00
+[download] 100% of    4.09MiB in 00:00:00 at 8.63MiB/s   
+                                                      
+[download_track_audio] playlist entry detected → first item
+[download_track_audio] expected path: /home/where/Downloads/SONG/API/DtMF - Bad Bunny.mp3
+[download_track_audio] file found: /home/where/Downloads/SONG/API/DtMF - Bad Bunny.mp3
+[scrape_track] Download finished: /home/where/Downloads/SONG/API/DtMF - Bad Bunny.mp3
+[increment_counter] Counter updated: 1
+[scrape_track] Download Complete!
+[UI] add_song_META called
+[UI] Metadata writing enabled
+[MetaTags] Thread initialized
+[MetaTags] Target file: /home/where/Downloads/SONG/API/DtMF - Bad Bunny.mp3
+[UI] Download count: 1
+[UI] Song progress: 100
+[Main] Scraper thread finished
+[Main] Cleaning up scraper thread
+[MetaTags] Writing ID3 tags...
+[MetaTags] Text tags saved
+[MetaTags] Cover URL found, downloading...
+[DownloadCover] Initialized with URL: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bbd45c8d36e0e045ef640411
+[DownloadCover] Download started
+[Thread] Cleaning up thread: <__main__.WritingMetaTagsThread object at 0x7f324bb0d490>
+[Thread] Thread removed from active list
+[DownloadCover] HTTP Status: 200
+[DownloadCover] Cover downloaded successfully
+[MetaTags] Adding cover image...
+[MetaTags] Cover added successfully
+[MetaTags] Error adding cover: cannot access local variable 'sys' where it is not associated with a value
+❌ Download failed for 3sK8wGT43QFpWrvNQsrQya (exit code 1)
