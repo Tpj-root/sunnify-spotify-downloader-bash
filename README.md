@@ -119,4 +119,31 @@ Just run the script again, and any missing tracks will be downloaded automatical
 
 
 
+The top 10,000 songs span popularities 70–100. You can view them all in this [HTML file](https://annas-archive.li/blog/spotify/spotify-top-10k-songs-table.html).
+
+
+## Generate `track_id` List
+
+
+Download the CSV file containing the top 10,000 tracks:
+
+
+```bash
+wget https://raw.githubusercontent.com/Tpj-root/SiteTracker/refs/heads/main/10000_list.csv
+```
+
+
+Extract the `track_id` column (first 10 entries):
+
+```
+head -n 10 10000_list.csv | awk -F',' '{print $2}'
+```
+
+Or, using a cleaner one-liner:
+
+```
+awk -F',' 'NR<=10 {print $2}' 10000_list.csv
+```
+
+This generates a plain list of Spotify `track_id`s ready for further processing.
 
