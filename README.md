@@ -95,4 +95,16 @@ The original script sometimes misses tracks in large playlists (e.g., 55+ songs)
 
 Always double-check your track list and the download folder path to avoid missing files.
 
+
+**Note:**
+If the script encounters an error like:
+
+```
+ERROR: unable to download video data: HTTP Error 403: Forbidden
+```
+
+don’t worry! Simply click the download button again manually. The script will retry downloading the song, so you’ll never miss any track from your download list.
+
 ---
+
+
