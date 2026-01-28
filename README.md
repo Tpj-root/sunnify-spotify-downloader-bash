@@ -148,14 +148,6 @@ awk -F',' 'NR<=10 {print $2}' 10000_list.csv
 This generates a plain list of Spotify `track_id`s ready for further processing.
 
 
-
-```
-
-```
-
-
-
-
 ## Add detailed study notes and logging for Spotify API workflow
 
 - [x] Added [debug](https://raw.githubusercontent.com/Tpj-root/sunnify-spotify-downloader-bash/refs/heads/main/API_OUT) logging for all SpotifyEmbedAPI methods to track variable values and API calls
