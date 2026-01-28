@@ -14,18 +14,18 @@ github.com/sunnypatell/sunnify-spotify-downloader
 
 </div>
 
-> [!CAUTION]
-> **⚠️ EDUCATIONAL PROJECT DISCLAIMER**
+[!CAUTION]
+**⚠️ EDUCATIONAL PROJECT DISCLAIMER**
 >
-> This software was developed as a **student portfolio project** for educational purposes only. It is intended to demonstrate software engineering skills including API integration, multi-threading, cross-platform development, and full-stack architecture.
+This software was developed as a **student portfolio project** for educational purposes only. It is intended to demonstrate software engineering skills including API integration, multi-threading, cross-platform development, and full-stack architecture.
 >
-> **By using this software, you acknowledge that:**
-> - You will only use it in jurisdictions where downloading copyrighted content for personal use is permitted
-> - You are responsible for complying with all applicable laws in your region
-> - This tool should only be used with content you own or have explicit permission to download
-> - The developer assumes no liability for misuse of this software
+**By using this software, you acknowledge that:**
+- You will only use it in jurisdictions where downloading copyrighted content for personal use is permitted
+- You are responsible for complying with all applicable laws in your region
+- This tool should only be used with content you own or have explicit permission to download
+- The developer assumes no liability for misuse of this software
 >
-> **See [full disclaimer](#legal-disclaimer) below and read [DISCLAIMER.md](DISCLAIMER.md) for complete legal terms.**
+**See [full disclaimer](#legal-disclaimer) below and read [DISCLAIMER.md](DISCLAIMER.md) for complete legal terms.**
 
 <p align="center">
     <a href="#table-of-contents">Jump to Table of Contents</a>
@@ -103,8 +103,20 @@ If the script encounters an error like:
 ERROR: unable to download video data: HTTP Error 403: Forbidden
 ```
 
-don’t worry! Simply click the download button again manually. The script will retry downloading the song, so you’ll never miss any track from your download list.
+**Don’t worry!** 
 
----
+
+If a download fails, simply click the download button again.
+The script will automatically retry, ensuring you never miss any track from your list.
+
+
+If a track ID already exists in the local folder, 
+it will be skipped and won’t be downloaded again.
+
+
+The script also checks your tracker list and counts missing songs. 
+Just run the script again, and any missing tracks will be downloaded automatically.
+
+
 
 
